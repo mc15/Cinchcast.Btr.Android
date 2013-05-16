@@ -8,7 +8,7 @@ using Android.OS;
 
 namespace Cinchcast.Btr.Android
 {
-	[Activity (Label = "Cinchcast.Btr.Android", MainLauncher = true)]
+	[Activity (Label = "BlogTalkRadio", MainLauncher = true)]
 	public class Activity1 : Activity
 	{
 		int count = 1;
