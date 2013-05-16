@@ -1,13 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Cinchcast.Btr.Android\MainActivity.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Cinchcast.Btr.Android\MainActivity.cs" Line="16" Column="32" />
+      <File FileName="Cinchcast.Btr.Android\MainActivity.cs" Line="29" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Cinchcast.Btr.Android MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
+  <MonoDevelop.Ide.ItemProperties.Cinchcast.Btr.Android MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" MonoForAntroid.PreferredTheme="Theme.Holo.Light" />
 </Properties>

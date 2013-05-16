@@ -2,15 +2,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
     <ImageView
         android:src="@drawable/btr_logo"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView1" />
-    <Button
-        android:id="@+id/myButton"
+        android:layout_height="58.0dp"
+        android:id="@+id/imageView1"
+        android:layout_margin="10dp"
+        android:scaleType="centerCrop" />
+    <TextView
+        android:text="List of Episodes"
+        android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello" />
+        android:textColor="#333333"
+        android:id="@+id/textView1"
+        android:layout_margin="5dp" />
 </LinearLayout>
