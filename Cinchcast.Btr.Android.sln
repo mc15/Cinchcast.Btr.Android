@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinchcast.Btr.Android", "Cinchcast.Btr.Android\Cinchcast.Btr.Android.csproj", "{3483DB55-22BE-438A-AAC0-5C4011736AAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3483DB55-22BE-438A-AAC0-5C4011736AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3483DB55-22BE-438A-AAC0-5C4011736AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3483DB55-22BE-438A-AAC0-5C4011736AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3483DB55-22BE-438A-AAC0-5C4011736AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Cinchcast.Btr.Android\Cinchcast.Btr.Android.csproj
+	EndGlobalSection
+EndGlobal
