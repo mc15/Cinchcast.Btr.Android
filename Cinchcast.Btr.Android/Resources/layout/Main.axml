@@ -13,10 +13,16 @@
         android:scaleType="centerCrop" />
     <TextView
         android:text="List of Episodes"
-        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textColor="#333333"
         android:id="@+id/textView1"
         android:layout_margin="5dp" />
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewEpisodes" />
 </LinearLayout>
