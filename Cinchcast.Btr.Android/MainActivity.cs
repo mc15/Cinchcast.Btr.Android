@@ -17,24 +17,16 @@ namespace Cinchcast.Btr.Android
 			base.OnCreate (bundle);
 
 			RequestWindowFeature(WindowFeatures.NoTitle);
-			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.Main);
-
-			// Get our button from the layout resource,
-			// and attach an event to it
-			//Button button = FindViewById<Button> (Resource.Id.myButton);
-			
-			//button.Click += delegate {
-			//	button.Text = string.Format ("{0} clicks!", count++);
-			//};
 
 			ListView lstEpisodes = FindViewById<ListView> (Resource.Id.listViewEpisodes);
 
 			List<EpisodeViewModel> episodes = new List<EpisodeViewModel> ();
 
 			for (int i=0; i < 25; i++) {
-				episodes.Add (new EpisodeViewModel(){ Name=  "Episode 1", PublishDate = "Just now"});
-				episodes.Add (new EpisodeViewModel(){ Name=  "Episode 2", PublishDate = "15 minutes ago"});
+				DateTime publishDate = DateTime.Now.AddDays (-i);
+
+				episodes.Add (new EpisodeViewModel(){ Name=  "Episode " + (i + 1).ToString(), PublishDate = publishDate.ToShortDateString()  });
 			}
 
 			lstEpisodes.Adapter = new EpisodeAdapter (this, episodes);
